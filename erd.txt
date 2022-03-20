@@ -32,3 +32,22 @@ price integer
 num_stars integer
 location_key integer FK >- zomato_data.location_key
 
+
+
+
+
+Restaurant_data_final
+-
+id integer pk
+name varchar
+cuisines varchar
+price_ranges integer
+user_ratings float
+address varchar
+city varchar
+country_id integer
+longitude integer
+latitude integer
+location_key integer
+num_stars integer
+michelin_rated integer
