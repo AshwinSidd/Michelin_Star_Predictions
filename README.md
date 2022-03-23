@@ -6,8 +6,7 @@ Michelin star restaurants earn more profit as the inspection/screening process i
 
 ## Data source
 The group decided to use data sourced from Kaggle. For data cleaning and analysis: Jupyter will be used initially to clean and analyze data. In this we will use Numpy and Pandas to read file.
-Source: Kaggle data - https://www.kaggle.com/shrutimehta/zomato-restaurants-data
-https://www.kaggle.com/jackywang529/michelin-restaurants
+Source: Kaggle data - https://www.kaggle.com/code/stefanoleone992/tripadvisor-european-restaurants-eda
 
 ## Goal
 Determine which features adversly affect the decision to award a Michelin star. These features would be key indicators that would be used to then help build our machine learning model. Select which model to use, train and test this data and use it to predict which restaurant could be awarded a Michelin star next.
