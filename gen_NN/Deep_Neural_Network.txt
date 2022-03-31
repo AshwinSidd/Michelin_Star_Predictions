@@ -1,0 +1,11 @@
+# Applying Deep Neural Network 
+
+A neural network will be used in the module with a certain amount of hidden layers and activation functions.
+
+Based on the dataset the following is to be decided:
+•	Target variable and features
+•	Does any variable needs to be standardize
+•	Does any category need binning?
+
+Determine the metrics to be used in testing the robustness and performance of the model.
+Can another model still be used and is logistic regression applicable

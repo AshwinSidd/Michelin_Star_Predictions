@@ -84,5 +84,3 @@ Tableau will be used for dashboard.
 - Reasoning: As the Amazon S3 will be used we can connect the data by using Athena connector in Tableau.
 - Otherwise we can export the data after analyzing and import it directly in Tableau. Tableau have ability to also summarize data by using story telling tab. Further other visulization graph, charts, heatmap etc can be used to visualize findings. 
 
-
-
