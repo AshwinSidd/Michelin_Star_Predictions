@@ -25,3 +25,10 @@
 	)
 	
 -- DROP TABLE country_data
+-- DROP TABLE countries
+
+SELECT * FROM country_data
+SELECT * FROM countries;
+SELECT * FROM restaurant_data;
+
+
