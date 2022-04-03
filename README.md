@@ -1,3 +1,6 @@
+## Presentation
+Google slides link - https://docs.google.com/presentation/d/1W40jNMnZmqNyO1W9koNfOlCWMyL6rSrReB-Hw7ZwxFc/edit?usp=sharing
+
 ## Group Project Overview
 As part of our group project for UoT's Data Analytics Bootcamp, our team chose to work on builidng a machine learning model which would predict the next upcoming restaurant having the potential to earn atleast one of the Michelin 'stars'. All the team members felt that this would be an interesting topic and that it would help us put to good use the tools and concepts that we have learnt in this bootcamp.
 
@@ -78,4 +81,6 @@ The tools for machine learning:
 Tableau will be used for dashboard.
 - Reasoning: As the Amazon S3 will be used we can connect the data by using Athena connector in Tableau.
 - Otherwise we can export the data after analyzing and import it directly in Tableau. Tableau have ability to also summarize data by using story telling tab. Further other visulization graph, charts, heatmap etc can be used to visualize findings. 
+
+
 
