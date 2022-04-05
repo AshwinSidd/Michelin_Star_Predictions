@@ -1,0 +1,48 @@
+
+
+# Technologies Used
+
+1. Data Cleaning and Analysis
+
+- Data Sourced: Kaggle
+- Data cleaning and analysis: Jupiter will be used initially to clean and analyze data. In this we will use Numpy and Pandas to read file.
+    - Data Cleaning Process:
+            - Check for Null values
+            - Replace the Null values with 0 or drop rows after checking if sufficient data for analysis
+            - Drop Columns that are not needed for Analysis
+            - review data types
+            - Change any sympbols to string or itegar
+            - Narrow down the data based on City, Country etc. 
+- Machine learning model can be test based on sample data on Jupiter as well
+- Further Analysis done on Python
+- Map location by using Longitude and Latitude
+            -Layers can be built by using stars (1,2,3)
+
+
+2. Database Storage
+Using Amazon S3 to store data:
+- Ability to use bukets and can call individually when analyzing in Python
+- Ability to use CSV files as this a common source of data reporting
+- Both structured and unstructured can be used 
+- Secure and easily accessible
+- Easy to use 
+- Ability to be intergrated with multiple softwares such as Tableau
+
+Process Steps:
+Navigate to All Settings > Raw Data Export > CSV Upload. Toggle the switch to ON. Select Amazon S3 Bucket from the dropdown menu. Enter your Access Key ID, Secret Access Key, and bucket name.
+
+3. Machine Learning
+The tools for machine learning:
+- After data is pre-processed and cleansed a machine learning model will be applied
+- Based on finding a sample data will be first tested and trained to be applied
+- The accuracy would be analyzed if the model will be good to use or explore other models
+- Please see the Machine learning diagram for further details. 
+- Other tools that can be used depending on test data: sklearn. Materix, Scailing and Splitting, clustering, linear regression or logistic regression etc.
+
+4. Dashboard
+Tableau will be used for dashboard.
+- Reasoning: As the Amazon S3 will be used we can connect the data by using Athena connector in Tableau.
+- Otherwise we can export the data after analyzing and import it directly in Tableau. Tableau have ability to also summarize data by using story telling tab. Further other visulization graph, charts, heatmap etc can be used to visualize findings. 
+
+
+
