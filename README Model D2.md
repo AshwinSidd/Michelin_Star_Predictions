@@ -34,4 +34,4 @@ The Sample Trees would be look like the following pictures:
 ### Target
 - For now, the target of this Deep Forest Model would be 75% accuracy. Hopefully after several optimization, it could reach the target. (Deliverabl1)
 - The model fulfill the 75% accuracy target. Hoever, prediction for 2/3 stars are 0% accuracy. It need to be improved in next deliverable.
-- Trying to build up a interface for users to input a random resturant features and return a star binary result.
+- Trying to build up a interface for users to input a random resturant features and return a star binary result.。
