@@ -29,7 +29,7 @@ The aim of this project was to determine whether a restaurant will be rated with
 robust model as it effectively reduces the spread or dispersion of the predictions and model performance. Like Gradient Boosting, they are good at providing high model scalability, but by reducing variance it solves the problem of overfitting.
 
 The metrics used to evaluate/compare the models’ accuracy were:
-* the accuracy score - used to validate the model. That is, how well does the model predict the outcome
+* the accuracy score 
 * the mean square error (MSE),
 * the mean absolute error 
 * the root mean square error 
