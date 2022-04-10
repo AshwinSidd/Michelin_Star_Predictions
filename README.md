@@ -10,34 +10,25 @@ Michelin star restaurants earn more profit as the inspection/screening process i
 ## Data source
 The data sets we would be using are - 
 1) Michelin Star Information from Kaggle (https://www.kaggle.com/jackywang529/michelin-restaurants)
-2) Zomato Resturant information (https://www.kaggle.com/shrutimehta/zomato-restaurants-data)
-
-Sample Data
-a. there will be a lot of data --> explore at least 2 different ways to sample to determine which is the best
-b. from there, create a sample data set as a CSV to share
+2) Zomato Restaurant information (https://www.kaggle.com/shrutimehta/zomato-restaurants-data)
 
 ## Goal
 Determine which features adversly affect the decision to award a Michelin star. These features would be key indicators that would be used to then help build our machine learning model. Select which model to use, train and test this data and use it to predict which restaurant could be awarded a Michelin star next.
 
 ## Machine Learning Model 
-We will be working around the below modelas - 
-1) Deep Forest Model - The mechilin data sets have the variables discountinued in some category. So the deep forest model is chosen to be one of the main method for the machine learning of the prediction.
+The aim of this project was to determine whether a restaurant will be rated with a Michelin award (1-yes or 0-No). The classification model's algorithms would attempt to learn patterns from the data, and if the model is successful, gain the ability to make accurate predictions for new restaurants. The dataset was divided into 70% training data and 30% testing data. The dataset was encoded using label encoding. Using this encoded data, various machine learning algorithms was used to find the best fitting model. The various regression algorithms used to build the model were
 
-https://github.com/AshwinSidd/group_5_project/blob/FredericXu/RandomData.png?raw=true
+Logistic regression - is a binary classifier which can categorize samples into one of two categories. A logistic regression model evaluates the probability of of event success and event failure. Two major advantages for logistictic regression is that it generally obtains good accuracy for many simple data sets and it performs well when the dataset is linearly separable, and it not only provides a measure of how appropriate a predictor is, but also its direction of association (positive or negative). The major limitation of Logistic Regression is the assumption of linearity between the dependent variable and the independent variables. Linearly separable data is rarely found in real-world scenarios.
 
-https://github.com/AshwinSidd/group_5_project/blob/FredericXu/SampleTree.png?raw=true
+Gradient Boosted Tree - Gradient boosting models are powerful algorithms which can be used for classification tasks and can perform incredibly well on very complex datasets. They are also easy to implement in Scikit-Learn. However, they are also prone to overfitting. Usually this can be avoided by tuning the parameter.
 
-2) Deep Neural Network 
+Easy Ensemble AdaBoost Classifier - is an ensemble of AdaBoost learners trained on different balanced boostrap samples. The balancing is achieved by random under-sampling. This model owns the advantage of being a better performer thus making make better predictions than any single contributing model. It is also a robust model as it effectively reduces the spread or dispersion of the predictions and model performance. Like Gradient Boosting, they are good at providing high model scalability, but by reducing variance it solves the problem of overfitting.
 
-A neural network will be used in the module with a certain amount of hidden layers and activation functions.
-
-Based on the dataset the following is to be decided:
-•	Target variable and features
-•	Does any variable needs to be standardize
-•	Does any category need binning?
-
-Determine the metrics to be used in testing the robustness and performance of the model.
-Can another model still be used and is logistic regression applicable
+The metrics used to evaluate/compare the models’ accuracy were:
+- the accuracy score
+- the mean square error (MSE),
+- the mean absolute error
+- the root mean square error
 
 ## Technologies used
 1. Data Cleaning and Analysis
