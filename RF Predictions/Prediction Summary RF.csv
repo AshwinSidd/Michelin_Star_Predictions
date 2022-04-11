@@ -1,0 +1,14 @@
+,Tree Value,TestSplit Value,Total Accuracy,Root Mean Sqaure Error,Accuracy 0 Star,Recall  0 Star,F1-Score 0 Star,Accuracy with Star,Recall with Star,F1-Score with Star
+RandomForestClassifier1,100,0.1,0.984031085,0.125710246,0.99,1,0.99,0.51,0.29,0.37
+RandomForestClassifier2,1000,0.1,0.985073566,0.122125295,0.99,1,0.99,0.53,0.31,0.39
+RandomForestClassifier3,1000,0.15,0.985389585,0.120873551,0.99,1,0.99,0.52,0.31,0.39
+RandomForestClassifier4,10000,0.1,0.985997583,0.118281741,0.99,1,0.99,0.5,0.31,0.38
+RandomForestClassifier5,1000,0.3,0.98542106,0.120563276,0.99,1,0.99,0.53,0.3,0.38
+RandomForestClassifier6,1000,0.45,0.985384166,0.120841514,0.99,1,0.99,0.51,0.28,0.36
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
