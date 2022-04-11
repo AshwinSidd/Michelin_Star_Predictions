@@ -1,8 +1,0 @@
-cd Project/
-
-git add . 
-
-git commit -u "GDP"
-
-git push - u technologies 
-
