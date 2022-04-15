@@ -1,6 +1,8 @@
 ## Presentation
 Google slides link - https://docs.google.com/presentation/d/1W40jNMnZmqNyO1W9koNfOlCWMyL6rSrReB-Hw7ZwxFc/edit?usp=sharing
 
+Dashboard: https://public.tableau.com/app/profile/hannah7951/viz/Deliverable3_16495319773230/Dashboard3?publish=yes
+
 ## Group Project Overview
 As part of our group project for UoT's Data Analytics Bootcamp, our team chose to work on builidng a machine learning model which would predict the next upcoming restaurant having the potential to earn atleast one of the Michelin 'stars'. All the team members felt that this would be an interesting topic and that it would help us put to good use the tools and concepts that we have learnt in this bootcamp.
 
