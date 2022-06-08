@@ -49,7 +49,6 @@ The metrics used to evaluate/compare the models’ accuracy were:
 - Map location by using Longitude and Latitude
             -Layers can be built by using stars (1,2,3)
 
-
 2. Database Storage
 Using Amazon S3 to store data:
 - Ability to use bukets and can call individually when analyzing in Python
